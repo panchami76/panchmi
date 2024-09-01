@@ -1,0 +1,184 @@
+/* styles.css */
+
+/* General Reset */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Basic styles for the header and navigation */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* Default text color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Color on hover */
+}
+
+.event-banner {
+    background: url('banner-image.jpg') no-repeat center center/cover;
+    color: #f0f0f3;
+    text-align: center;
+    padding: 100px ;
+    background-image:url(student.jpeg) ;
+    height: 200px;
+}
+
+.banner-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.banner-content p {
+    font-size: 1.25rem;
+}
+
+.event-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.event-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.schedule-content, .speakers-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.schedule-list {
+    list-style: none;
+}
+
+.schedule-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.time {
+    font-weight: bold;
+}
+
+.speaker {
+    display: inline-block;
+    width: 45%;
+    margin: 0 2.5%;
+    text-align: center;
+}
+
+.speaker img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.speaker h3 {
+    margin-top: 10px;
+}
+
+iframe {
+    border: 0;
+    width: 100%;
+    height: 400px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background: #40f740;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #eb1717;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding:  0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+h3{
+    color: rgb(154, 21, 243);
+}
+p{
+color:#0d690d
+}
+h2{
+color:#c62c7b
+}
+h4{
+    color: #f1eaf1;
+font-size: 250%;
+}
+p4{
+    color: blue;
+}
+h1{
+    color: #eb1717;
+}

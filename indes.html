@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Landing Page</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Event Landing Page</h1>   
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#venue">Venue</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="event-banner">
+        <div class="banner-content">
+            <h4>Welcome to the Event</h4>
+        </div>
+    </section>
+
+    <section id="schedule" class="event-section">
+        <h2>Event Schedule</h2>
+        <div class="schedule-content">
+            <ul class="schedule-list">
+                <li><span class="time">9:00 am</span> - Opening Keynote</li>
+                <li><span class="time">10:15 am - 12:00 pm</span> - Workshop on Web Development</li>
+                <li><span class="time">12:00 pm - 1:30 pm</span> - Lunch Break</li>
+                <li><span class="time">1:30 pm - 3:00 pm</span> - Panel Discussion</li>
+                <li><span class="time">3:15 pm - 3:30 pm</span> - Closing Remarks</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="speakers" class="event-section">
+        <h2>Meet Our Speakers</h2>
+        <div class="speakers-content">
+            <div class="speaker">
+                <img src="aa.jpg" alt="Speaker 1">
+                <h3>Abhishek Gupta</h3>
+                <p>Abhishek Gupta is  a graduate of IIT Kharagpur, is a software developer and entrepreneur who co-founded NavGurukul, a non-profit organization offering free coding education to underprivileged communities. He has significant experience in software development and has worked with various startups and organizations before focusing on social impact through NavGurukul
+                    and speaker with a passion for teaching web technologies.</p>
+            </div>
+            <div class="speaker">
+                <img src="Zubin.webp" alt="Speaker 2">
+                <h3>Zubin Sharma</h3>
+                <p>Zubin, who began his journey as a Pratham volunteer in Bihar in 2012, holds degrees from UPenn and Yale, and has been an Acumen Fellow and N/Core Incubatee. Originally from New York, he’s dedicated to building learning communities focused on social justice and sustainability, and frequently uses basketball analogies in his life.</p>
+            </div>
+            <!-- Add more speakers here -->
+        </div>
+    </section>
+
+    <section id="venue" class="event-section">
+        <h2>Event Venue</h2>
+        <p>We are excited to host the event at the NavGurukul Kishanganj Campus. Below are the details:</p>
+        <p><strong>Address:</strong>Kishanganj Lahrachok</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d708.0743567630783!2d87.92512666918799!3d26.121665966838496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e513006f257d97%3A0x3d61d5e4ffa9ce93!2sSchool%20of%20Programming%20(SoP)%20Campus!5e0!3m2!1sen!2sin!4v1718692915719!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section id="contact" class="event-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us:</p>
+        <p>Email: <a href="panchmi@24navgurukul.org">panchmi@24navgurukul.org</a></p>
+        <p>Phone: 7632080084</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p3>&copy; 2024 Event Landing Page. All rights reserved.</p3>
+    </footer>
+</body>
+</html>
